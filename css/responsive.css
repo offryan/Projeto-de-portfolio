@@ -1,0 +1,152 @@
+        @media (max-width: 1100px) {
+            /* LAB */
+            section.lab {
+                height: 100%;
+            }
+            section.lab .projects {
+                grid-template-columns: 1fr;
+                grid-gap: 50px;
+            }
+            section.lab .projects .project-item {
+                width: 80%;
+                height: 65vh;
+            }
+            section.lab .projects .project-item img.site {
+                max-height: 60vh;
+                border-radius: 15px;
+            }
+            section.lab .projects .project-item::before,
+            section.lab .projects .project-item::after {
+                width: 90%;
+            }
+            section.lab .projects .project-item .item-info-2,
+            section.lab .projects .project-item .item-info-1 {
+                height: 90%;
+            }
+            section.lab button {
+                text-align: center;
+            }
+            /* LAB */
+        }
+
+        @media (max-width: 800px) {
+            .menu-mobile {
+                display: block;
+            }
+            header.desktop {
+                display: none;
+            }
+            header.mobile {
+                display: flex;
+            }
+            .section-intro {
+                height: 500px;
+                justify-content: center;
+                width: 60%;
+                margin-top: 100px;
+            }
+            .section-intro .svg-programmer {
+                display: none;
+            }
+            .section-intro p {
+                padding: 30px 0;
+            }
+            .section-intro button {
+                margin-top: 50px;
+            }
+            section.lab .projects .project-item {
+                max-height: 500px;
+            }
+        }
+
+        @media (max-width: 760px) {
+            section.info .infos .about {
+                margin: 0 auto;
+                margin-top: 20px;
+                padding-top: 30px;
+            }
+            section.info .infos {
+                flex-direction: column;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            section.info .infos .info-me h2 {
+                text-align: center;
+            }
+            section.info .infos .info-me2>p {
+                text-align: left;
+            }
+            section.info {
+                height: 2000px;
+            }
+            section.contact .contact-icons {
+                padding: 20px 0;
+                flex-direction: column;
+                align-items: center;
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            section.contact {
+                height: 700px;
+                margin-top: 50px;
+            }
+        }
+
+        @media (max-width: 630px) {
+            section.lab .projects .project-item::before,
+            section.lab .projects .project-item::after {
+                width: 85%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            section.contact {
+                margin-top: 100px;
+            }
+            section.contact .contact-icons {
+                margin: 0 15% 10px 5%;
+            }
+            section.skills {
+                height: 600px;
+            }
+            section.skills .icons-container {
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+            }
+            section.skills .icons-container .icon-item+.icon-item {
+                margin-top: 20px;
+            }
+        }
+
+        @media(max-width: 400px) {
+            section.lab .projects .project-item::before,
+            section.lab .projects .project-item::after {
+                width: 80%;
+            }
+        }
+
+        @media(max-width: 350px) {
+            .section-intro .info {
+                max-width: 300px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .section-intro .info h1 {
+                margin-top: 10px;
+            }
+            .section-intro .info button {
+                max-width: 200px;
+            }
+            section.lab .projects .project-item {
+                max-height: 440px;
+            }
+            section.info img.me {
+                margin-top: 30px;
+            }
+        }
