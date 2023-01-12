@@ -83,13 +83,10 @@
             section.contact .contact-icons {
                 padding: 20px 0;
                 flex-direction: column;
-                align-items: center;
-                width: 90%;
                 margin: 0 auto;
                 text-align: center;
             }
             section.contact {
-                height: 700px;
                 margin-top: 50px;
             }
         }
@@ -106,7 +103,7 @@
                 margin-top: 100px;
             }
             section.contact .contact-icons {
-                margin: 0 15% 10px 5%;
+                margin: 0 10% 15px 5%;
             }
             section.skills {
                 height: 600px;
