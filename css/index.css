@@ -353,7 +353,7 @@ section.skills h2 {
 section.skills .icons-container {
     display: flex;
     padding: 0 2%;
-    width: 80%;
+    width: 100%;
     justify-content: space-around;
     margin-top: 20px;
     padding: 60px 0;
